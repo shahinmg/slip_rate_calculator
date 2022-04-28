@@ -7,12 +7,12 @@ from matplotlib import collections as mc
 from matplotlib import gridspec
 
 from matplotlib.backends import qt_compat
-from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.backends.backend_qt4agg import NavigationToolbar2QT as NavigationToolbar
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
-
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import QDialog
 
 
 def results_plots_for_gui(res_df, age_arr, run_config_dict, n_pieces,

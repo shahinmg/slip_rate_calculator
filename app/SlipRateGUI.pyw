@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import sys
 import os
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QMainWindow, QApplication
 try:
     from qtconsole.rich_ipython_widget import RichIPythonWidget
     from qtconsole.inprocess import QtInProcessKernelManager

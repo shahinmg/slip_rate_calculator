@@ -3,7 +3,7 @@ dependencies:
     - ipython
     - numpy
     - pandas
-    - pyqt=4
+    - pyqt=5
     - matplotlib
     - scipy
     - qtconsole
