@@ -3,6 +3,7 @@ Slip Rate Calculator
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.33360.svg)](http://dx.doi.org/10.5281/zenodo.33360)
 Updated to help my buddy Dan
+
 The Slip Rate Calculator is a tool that takes probability distributions for age
 and offset distance for geologic (or other) features cut by a fault and
 calculates the probability distribution of the fault's slip rate via Monte
